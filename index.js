@@ -8,7 +8,14 @@ const TARGET_URL = 'https://www.frontex.europa.eu/careers/vacancies/open-vacanci
 async function scrapeVacancies() {
     try {
         console.log(`Fetching ${TARGET_URL}...`);
-        const { data } = await axios.get(TARGET_URL, { headers: { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36' } });
+        const { data } = await axios.get(TARGET_URL, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.5',
+                'Referer': 'https://www.frontex.europa.eu/'
+            }
+        });
         const $ = cheerio.load(data);
 
         const feed = new RSS({

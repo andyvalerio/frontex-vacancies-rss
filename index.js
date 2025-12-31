@@ -8,14 +8,12 @@ const TARGET_URL = 'https://www.frontex.europa.eu/careers/vacancies/open-vacanci
 async function scrapeVacancies() {
     try {
         console.log(`Fetching ${TARGET_URL}...`);
-        const { data } = await axios.get(TARGET_URL, {
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-                'Accept-Language': 'en-US,en;q=0.5',
-                'Referer': 'https://www.frontex.europa.eu/'
-            }
-        });
+        // Always fetch via Jina AI proxy to avoid 403
+        const cleanUrl = TARGET_URL.replace(/^https?:\/\//, '');
+        const proxyUrl = `https://r.jina.ai/http://${cleanUrl}`;
+        const { data } = await axios.get(proxyUrl);
+
+
         const $ = cheerio.load(data);
 
         const feed = new RSS({
@@ -26,35 +24,36 @@ async function scrapeVacancies() {
             language: 'en',
         });
 
-        $('.careers-list-item').each((i, el) => {
-            const title = $(el).find('.title').text().trim();
-            const link = $(el).find('a').attr('href');
-
-            // Extract metadata from <dl>
-            const meta = {};
-            $(el).find('dl.meta dt').each((j, dt) => {
-                const key = $(dt).text().replace(':', '').trim();
-                const value = $(dt).next('dd').text().trim();
-                meta[key] = value;
-            });
-
-            const deadline = meta['Deadline'] || 'N/A';
-            const refNo = meta['Reference No'] || 'N/A';
-            const status = meta['Status'] || 'N/A';
-
+        // Jina AI returns plain text with markdown headings (###) for each vacancy
+        const blocks = data.split('###').filter(b => b.trim().length > 0);
+        blocks.forEach(block => {
+            const lines = block.trim().split('\n').map(l => l.trim()).filter(l => l.length > 0);
+            const title = lines[0];
+            // Extract details using regex
+            const deadlineMatch = block.match(/Deadline[:\s]*([0-9]{4}-[0-9]{2}-[0-9]{2})/i);
+            const refMatch = block.match(/Reference No[:\s]*([A-Z0-9-]+)/i);
+            const statusMatch = block.match(/Status[:\s]*([^\n]+)/i);
+            const urlMatch = block.match(/\((https?:\/\/[^)]+)\)/i);
+            // Only create an item if we have the essential fields
+            if (!deadlineMatch || !refMatch || !urlMatch) {
+                return; // skip non‑vacancy sections
+            }
+            const deadline = deadlineMatch[1];
+            const reference = refMatch[1];
+            const status = statusMatch ? statusMatch[1].trim() : 'N/A';
+            const url = urlMatch[1];
             const description = `
-                <p><strong>Reference No:</strong> ${refNo}</p>
                 <p><strong>Deadline:</strong> ${deadline}</p>
+                <p><strong>Reference No:</strong> ${reference}</p>
                 <p><strong>Status:</strong> ${status}</p>
-                <p><a href="${link}">View & apply</a></p>
+                <p><a href="${url}">View &amp; apply</a></p>
             `;
-
             feed.item({
                 title: title,
                 description: description,
-                url: link,
-                guid: refNo !== 'N/A' ? refNo : link,
-                date: deadline !== 'N/A' ? new Date(deadline) : new Date(),
+                url: url,
+                guid: reference,
+                date: new Date(deadline),
             });
         });
 

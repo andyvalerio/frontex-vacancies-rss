@@ -18,7 +18,7 @@ To host this yourself:
 
 ### 2. Subscribe to the Feed
 Once set up, your RSS feed will be available at:
-`https://<your-username>.github.io/<your-repo-name>/feed.xml`
+`https://andyvalerio.github.io/frontex-vacancies-rss/feed.xml`
 
 ## Local Development
 

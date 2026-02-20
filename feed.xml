@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Frontex careers and open vacancies]]></description>
         <link>https://www.frontex.europa.eu/careers/vacancies/open-vacancies/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Fri, 20 Feb 2026 01:42:57 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 20 Feb 2026 06:49:01 GMT</lastBuildDate>
         <atom:link href="https://andyvalerio.github.io/frontex-vacancies-rss/feed.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <item>

@@ -4,8 +4,44 @@
         <description><![CDATA[RSS feed for Frontex careers and open vacancies]]></description>
         <link>https://www.frontex.europa.eu/careers/vacancies/open-vacancies/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 01 Mar 2026 06:39:12 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 01 Mar 2026 12:37:07 GMT</lastBuildDate>
         <atom:link href="https://andyvalerio.github.io/frontex-vacancies-rss/feed.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Building and Facility Contracts Officer (AD7) 2 posts]]></title>
+            <description><![CDATA[
+                <p><strong>Deadline:</strong> 2026-03-13</p>
+                <p><strong>Reference No:</strong> RCT-2025-00110</p>
+                <p><strong>Status:</strong> Open for applications - deadline extended[View & apply](https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00110)</p>
+                <p><a href="https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00110">View &amp; apply</a></p>
+            ]]></description>
+            <link>https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00110</link>
+            <guid isPermaLink="false">RCT-2025-00110</guid>
+            <pubDate>Fri, 13 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Team Leader, ETIAS (AD6) - 2 posts]]></title>
+            <description><![CDATA[
+                <p><strong>Deadline:</strong> 2026-03-11</p>
+                <p><strong>Reference No:</strong> RCT-2025-00116</p>
+                <p><strong>Status:</strong> Open for applications[View & apply](https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00116)</p>
+                <p><a href="https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00116">View &amp; apply</a></p>
+            ]]></description>
+            <link>https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00116</link>
+            <guid isPermaLink="false">RCT-2025-00116</guid>
+            <pubDate>Wed, 11 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Training Officer (AD7) - 3 posts multiple profiles]]></title>
+            <description><![CDATA[
+                <p><strong>Deadline:</strong> 2026-03-04</p>
+                <p><strong>Reference No:</strong> RCT-2025-00120</p>
+                <p><strong>Status:</strong> Open for applications[View & apply](https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00120)</p>
+                <p><a href="https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00120">View &amp; apply</a></p>
+            ]]></description>
+            <link>https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00120</link>
+            <guid isPermaLink="false">RCT-2025-00120</guid>
+            <pubDate>Wed, 04 Mar 2026 00:00:00 GMT</pubDate>
+        </item>
     </channel>
 </rss>

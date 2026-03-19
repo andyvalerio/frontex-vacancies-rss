@@ -4,44 +4,8 @@
         <description><![CDATA[RSS feed for Frontex careers and open vacancies]]></description>
         <link>https://www.frontex.europa.eu/careers/vacancies/open-vacancies/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 19 Mar 2026 12:53:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Mar 2026 18:50:29 GMT</lastBuildDate>
         <atom:link href="https://andyvalerio.github.io/frontex-vacancies-rss/feed.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
-        <item>
-            <title><![CDATA[Cybersecurity Officer (AD7)]]></title>
-            <description><![CDATA[
-                <p><strong>Deadline:</strong> 2026-04-13</p>
-                <p><strong>Reference No:</strong> RCT-2025-00118</p>
-                <p><strong>Status:</strong> Open for applications[View & apply](https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00118)</p>
-                <p><a href="https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00118">View &amp; apply</a></p>
-            ]]></description>
-            <link>https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00118</link>
-            <guid isPermaLink="false">RCT-2025-00118</guid>
-            <pubDate>Mon, 13 Apr 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Senior Post-Return Officer/Team Leader (AD8)]]></title>
-            <description><![CDATA[
-                <p><strong>Deadline:</strong> 2026-04-08</p>
-                <p><strong>Reference No:</strong> RCT-2025-00111</p>
-                <p><strong>Status:</strong> Open for applications[View & apply](https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00111)</p>
-                <p><a href="https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00111">View &amp; apply</a></p>
-            ]]></description>
-            <link>https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00111</link>
-            <guid isPermaLink="false">RCT-2025-00111</guid>
-            <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Strategy and Policy Officer (AD7)]]></title>
-            <description><![CDATA[
-                <p><strong>Deadline:</strong> 2026-04-08</p>
-                <p><strong>Reference No:</strong> RCT-2026-00006</p>
-                <p><strong>Status:</strong> Open for applications[View & apply](https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00006)</p>
-                <p><a href="https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00006">View &amp; apply</a></p>
-            ]]></description>
-            <link>https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00006</link>
-            <guid isPermaLink="false">RCT-2026-00006</guid>
-            <pubDate>Wed, 08 Apr 2026 00:00:00 GMT</pubDate>
-        </item>
     </channel>
 </rss>

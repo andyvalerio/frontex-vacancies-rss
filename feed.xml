@@ -4,8 +4,44 @@
         <description><![CDATA[RSS feed for Frontex careers and open vacancies]]></description>
         <link>https://www.frontex.europa.eu/careers/vacancies/open-vacancies/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 21 Apr 2026 07:27:05 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Apr 2026 13:13:17 GMT</lastBuildDate>
         <atom:link href="https://andyvalerio.github.io/frontex-vacancies-rss/feed.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Finance Agent (FGIII) – Joint Inter-Agency Call]]></title>
+            <description><![CDATA[
+                <p><strong>Deadline:</strong> 2026-05-15</p>
+                <p><strong>Reference No:</strong> Europol</p>
+                <p><strong>Status:</strong> Open for applications[View & apply](https://www.europol.europa.eu/careers-procurement/open-vacancies/vacancy/1047)</p>
+                <p><a href="https://www.frontex.europa.eu/careers/vacancies/documents/">View &amp; apply</a></p>
+            ]]></description>
+            <link>https://www.frontex.europa.eu/careers/vacancies/documents/</link>
+            <guid isPermaLink="false">Europol</guid>
+            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Officer (AD6) Talent Pool]]></title>
+            <description><![CDATA[
+                <p><strong>Deadline:</strong> 2026-04-23</p>
+                <p><strong>Reference No:</strong> RCT-2026-00015</p>
+                <p><strong>Status:</strong> Open for applications[View & apply](https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00015)</p>
+                <p><a href="https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00015">View &amp; apply</a></p>
+            ]]></description>
+            <link>https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00015</link>
+            <guid isPermaLink="false">RCT-2026-00015</guid>
+            <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Officer - Business Manager in Operational System Development and Evolution Sector (1 post) and Officer -Team Leader in Deployment Sector (1 post) (AD7)]]></title>
+            <description><![CDATA[
+                <p><strong>Deadline:</strong> 2026-04-21</p>
+                <p><strong>Reference No:</strong> RCT-2025-00117</p>
+                <p><strong>Status:</strong> Open for applications[View & apply](https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00117)</p>
+                <p><a href="https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00117">View &amp; apply</a></p>
+            ]]></description>
+            <link>https://microsite.frontex.europa.eu/en/recruitments/RCT-2025-00117</link>
+            <guid isPermaLink="false">RCT-2025-00117</guid>
+            <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+        </item>
     </channel>
 </rss>

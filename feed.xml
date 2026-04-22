@@ -4,7 +4,7 @@
         <description><![CDATA[RSS feed for Frontex careers and open vacancies]]></description>
         <link>https://www.frontex.europa.eu/careers/vacancies/open-vacancies/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 22 Apr 2026 07:24:55 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Apr 2026 13:15:25 GMT</lastBuildDate>
         <atom:link href="https://andyvalerio.github.io/frontex-vacancies-rss/feed.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
         <item>
@@ -22,14 +22,14 @@
         <item>
             <title><![CDATA[Officer (AD6) Talent Pool]]></title>
             <description><![CDATA[
-                <p><strong>Deadline:</strong> 2026-04-23</p>
+                <p><strong>Deadline:</strong> 2026-04-27</p>
                 <p><strong>Reference No:</strong> RCT-2026-00015</p>
-                <p><strong>Status:</strong> Open for applications[View & apply](https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00015)</p>
+                <p><strong>Status:</strong> Open for applications - deadline extended[View & apply](https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00015)</p>
                 <p><a href="https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00015">View &amp; apply</a></p>
             ]]></description>
             <link>https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00015</link>
             <guid isPermaLink="false">RCT-2026-00015</guid>
-            <pubDate>Thu, 23 Apr 2026 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 27 Apr 2026 00:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

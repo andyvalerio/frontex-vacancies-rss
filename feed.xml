@@ -4,8 +4,32 @@
         <description><![CDATA[RSS feed for Frontex careers and open vacancies]]></description>
         <link>https://www.frontex.europa.eu/careers/vacancies/open-vacancies/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sun, 03 May 2026 18:51:50 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 04 May 2026 02:25:30 GMT</lastBuildDate>
         <atom:link href="https://andyvalerio.github.io/frontex-vacancies-rss/feed.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Legal Officer (FGIV) – Joint Inter-Agency Call]]></title>
+            <description><![CDATA[
+                <p><strong>Deadline:</strong> 2026-06-01</p>
+                <p><strong>Reference No:</strong> eu-LISA</p>
+                <p><strong>Status:</strong> Open for applications[View & apply](https://erecruitment.eulisa.europa.eu/en/our-jobs/joint-selection-procedure-for-the-post-of-legal-officer-fgiv-218)</p>
+                <p><a href="https://www.frontex.europa.eu/careers/vacancies/documents/">View &amp; apply</a></p>
+            ]]></description>
+            <link>https://www.frontex.europa.eu/careers/vacancies/documents/</link>
+            <guid isPermaLink="false">eu-LISA</guid>
+            <pubDate>Mon, 01 Jun 2026 00:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Finance Agent (FGIII) – Joint Inter-Agency Call]]></title>
+            <description><![CDATA[
+                <p><strong>Deadline:</strong> 2026-05-15</p>
+                <p><strong>Reference No:</strong> Europol</p>
+                <p><strong>Status:</strong> Open for applications[View & apply](https://www.europol.europa.eu/careers-procurement/open-vacancies/vacancy/1047)</p>
+                <p><a href="https://www.frontex.europa.eu/careers/vacancies/documents/">View &amp; apply</a></p>
+            ]]></description>
+            <link>https://www.frontex.europa.eu/careers/vacancies/documents/</link>
+            <guid isPermaLink="false">Europol</guid>
+            <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
+        </item>
     </channel>
 </rss>

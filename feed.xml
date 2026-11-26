@@ -4,9 +4,21 @@
         <description><![CDATA[RSS feed for Frontex careers and open vacancies]]></description>
         <link>https://www.frontex.europa.eu/careers/vacancies/open-vacancies/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Thu, 26 Nov 2026 01:27:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Nov 2026 16:12:56 GMT</lastBuildDate>
         <atom:link href="https://andyvalerio.github.io/frontex-vacancies-rss/feed.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[en]]></language>
+        <item>
+            <title><![CDATA[Head of Situational Assessment Sector (AD10)]]></title>
+            <description><![CDATA[
+                <p><strong>Deadline:</strong> 2026-12-17</p>
+                <p><strong>Reference No:</strong> RCT-2026-00080</p>
+                <p><strong>Status:</strong> Open for applications[View & apply](https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00080)</p>
+                <p><a href="https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00080">View &amp; apply</a></p>
+            ]]></description>
+            <link>https://microsite.frontex.europa.eu/en/recruitments/RCT-2026-00080</link>
+            <guid isPermaLink="false">RCT-2026-00080</guid>
+            <pubDate>Thu, 17 Dec 2026 00:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[European Border and Coast Guard Officer - Member of the Team (AST4)]]></title>
             <description><![CDATA[
